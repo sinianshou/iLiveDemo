@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		EB0B5BF123403E0800B53357 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0B5BF023403E0800B53357 /* AppDelegate.m */; };
-		EB0B5BF423403E0800B53357 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0B5BF323403E0800B53357 /* SceneDelegate.m */; };
 		EB0B5BF723403E0800B53357 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0B5BF623403E0800B53357 /* ViewController.m */; };
 		EB0B5BFA23403E0800B53357 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB0B5BF823403E0800B53357 /* Main.storyboard */; };
 		EB0B5BFC23403E0A00B53357 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB0B5BFB23403E0A00B53357 /* Assets.xcassets */; };
@@ -16,6 +15,25 @@
 		EB0B5C0223403E0A00B53357 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0B5C0123403E0A00B53357 /* main.m */; };
 		EB0B5C0C23403E0A00B53357 /* iLiveDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0B5C0B23403E0A00B53357 /* iLiveDemoTests.m */; };
 		EB0B5C1723403E0A00B53357 /* iLiveDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0B5C1623403E0A00B53357 /* iLiveDemoUITests.m */; };
+		EB0B5C2623403F5400B53357 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB0B5C2523403F5400B53357 /* VideoToolbox.framework */; };
+		EB0B5C3923403F6D00B53357 /* PI_iLiveBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB0B5C2A23403F5E00B53357 /* PI_iLiveBase.framework */; };
+		EB0B5C3A23403F6D00B53357 /* PI_iLiveBase.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EB0B5C2A23403F5E00B53357 /* PI_iLiveBase.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EB0B5C3C23403F6E00B53357 /* PI_iRoom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB0B5C2923403F5E00B53357 /* PI_iRoom.framework */; };
+		EB0B5C3D23403F6E00B53357 /* PI_iRoom.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EB0B5C2923403F5E00B53357 /* PI_iRoom.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EB0B5C3E23403F7000B53357 /* PI_MediaCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB0B5C2823403F5E00B53357 /* PI_MediaCore.framework */; };
+		EB0B5C3F23403F7000B53357 /* PI_MediaCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EB0B5C2823403F5E00B53357 /* PI_MediaCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EB0B5C4023403F7100B53357 /* PI_MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB0B5C2E23403F5F00B53357 /* PI_MediaPlayer.framework */; };
+		EB0B5C4123403F7100B53357 /* PI_MediaPlayer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EB0B5C2E23403F5F00B53357 /* PI_MediaPlayer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EB0B5C4223403F7200B53357 /* PI_Process.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB0B5C2723403F5E00B53357 /* PI_Process.framework */; };
+		EB0B5C4323403F7200B53357 /* PI_Process.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EB0B5C2723403F5E00B53357 /* PI_Process.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EB0B5C4423403F7400B53357 /* PSCocosEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB0B5C2F23403F5F00B53357 /* PSCocosEngine.framework */; };
+		EB0B5C4523403F7400B53357 /* PSCocosEngine.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EB0B5C2F23403F5F00B53357 /* PSCocosEngine.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EB0B5C4623403F7500B53357 /* PSLogUpload.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB0B5C2B23403F5E00B53357 /* PSLogUpload.framework */; };
+		EB0B5C4723403F7500B53357 /* PSLogUpload.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EB0B5C2B23403F5E00B53357 /* PSLogUpload.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EB0B5C4823403F7700B53357 /* PSLStreaming.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB0B5C2C23403F5E00B53357 /* PSLStreaming.framework */; };
+		EB0B5C4923403F7700B53357 /* PSLStreaming.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EB0B5C2C23403F5E00B53357 /* PSLStreaming.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EB0B5C4A23403F7B00B53357 /* transcoder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB0B5C2D23403F5F00B53357 /* transcoder.framework */; };
+		EB0B5C4B23403F7B00B53357 /* transcoder.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EB0B5C2D23403F5F00B53357 /* transcoder.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +53,32 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		EB0B5C3B23403F6D00B53357 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				EB0B5C3D23403F6E00B53357 /* PI_iRoom.framework in Embed Frameworks */,
+				EB0B5C4523403F7400B53357 /* PSCocosEngine.framework in Embed Frameworks */,
+				EB0B5C4323403F7200B53357 /* PI_Process.framework in Embed Frameworks */,
+				EB0B5C4B23403F7B00B53357 /* transcoder.framework in Embed Frameworks */,
+				EB0B5C4923403F7700B53357 /* PSLStreaming.framework in Embed Frameworks */,
+				EB0B5C4123403F7100B53357 /* PI_MediaPlayer.framework in Embed Frameworks */,
+				EB0B5C4723403F7500B53357 /* PSLogUpload.framework in Embed Frameworks */,
+				EB0B5C3A23403F6D00B53357 /* PI_iLiveBase.framework in Embed Frameworks */,
+				EB0B5C3F23403F7000B53357 /* PI_MediaCore.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		EB0B5BEC23403E0800B53357 /* iLiveDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iLiveDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB0B5BEF23403E0800B53357 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EB0B5BF023403E0800B53357 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EB0B5BF223403E0800B53357 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		EB0B5BF323403E0800B53357 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		EB0B5BF523403E0800B53357 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		EB0B5BF623403E0800B53357 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EB0B5BF923403E0800B53357 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -54,6 +92,16 @@
 		EB0B5C1223403E0A00B53357 /* iLiveDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iLiveDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB0B5C1623403E0A00B53357 /* iLiveDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iLiveDemoUITests.m; sourceTree = "<group>"; };
 		EB0B5C1823403E0A00B53357 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB0B5C2523403F5400B53357 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		EB0B5C2723403F5E00B53357 /* PI_Process.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PI_Process.framework; path = sdkFramworks/PI_Process.framework; sourceTree = "<group>"; };
+		EB0B5C2823403F5E00B53357 /* PI_MediaCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PI_MediaCore.framework; path = sdkFramworks/PI_MediaCore.framework; sourceTree = "<group>"; };
+		EB0B5C2923403F5E00B53357 /* PI_iRoom.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PI_iRoom.framework; path = sdkFramworks/PI_iRoom.framework; sourceTree = "<group>"; };
+		EB0B5C2A23403F5E00B53357 /* PI_iLiveBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PI_iLiveBase.framework; path = sdkFramworks/PI_iLiveBase.framework; sourceTree = "<group>"; };
+		EB0B5C2B23403F5E00B53357 /* PSLogUpload.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PSLogUpload.framework; path = sdkFramworks/PSLogUpload.framework; sourceTree = "<group>"; };
+		EB0B5C2C23403F5E00B53357 /* PSLStreaming.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PSLStreaming.framework; path = sdkFramworks/PSLStreaming.framework; sourceTree = "<group>"; };
+		EB0B5C2D23403F5F00B53357 /* transcoder.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = transcoder.framework; path = sdkFramworks/transcoder.framework; sourceTree = "<group>"; };
+		EB0B5C2E23403F5F00B53357 /* PI_MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PI_MediaPlayer.framework; path = sdkFramworks/PI_MediaPlayer.framework; sourceTree = "<group>"; };
+		EB0B5C2F23403F5F00B53357 /* PSCocosEngine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PSCocosEngine.framework; path = sdkFramworks/PSCocosEngine.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +109,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB0B5C4023403F7100B53357 /* PI_MediaPlayer.framework in Frameworks */,
+				EB0B5C4623403F7500B53357 /* PSLogUpload.framework in Frameworks */,
+				EB0B5C4223403F7200B53357 /* PI_Process.framework in Frameworks */,
+				EB0B5C3923403F6D00B53357 /* PI_iLiveBase.framework in Frameworks */,
+				EB0B5C3C23403F6E00B53357 /* PI_iRoom.framework in Frameworks */,
+				EB0B5C3E23403F7000B53357 /* PI_MediaCore.framework in Frameworks */,
+				EB0B5C4823403F7700B53357 /* PSLStreaming.framework in Frameworks */,
+				EB0B5C4A23403F7B00B53357 /* transcoder.framework in Frameworks */,
+				EB0B5C2623403F5400B53357 /* VideoToolbox.framework in Frameworks */,
+				EB0B5C4423403F7400B53357 /* PSCocosEngine.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +146,7 @@
 				EB0B5C0A23403E0A00B53357 /* iLiveDemoTests */,
 				EB0B5C1523403E0A00B53357 /* iLiveDemoUITests */,
 				EB0B5BED23403E0800B53357 /* Products */,
+				EB0B5C2423403F5400B53357 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,8 +165,6 @@
 			children = (
 				EB0B5BEF23403E0800B53357 /* AppDelegate.h */,
 				EB0B5BF023403E0800B53357 /* AppDelegate.m */,
-				EB0B5BF223403E0800B53357 /* SceneDelegate.h */,
-				EB0B5BF323403E0800B53357 /* SceneDelegate.m */,
 				EB0B5BF523403E0800B53357 /* ViewController.h */,
 				EB0B5BF623403E0800B53357 /* ViewController.m */,
 				EB0B5BF823403E0800B53357 /* Main.storyboard */,
@@ -137,6 +194,23 @@
 			path = iLiveDemoUITests;
 			sourceTree = "<group>";
 		};
+		EB0B5C2423403F5400B53357 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB0B5C2A23403F5E00B53357 /* PI_iLiveBase.framework */,
+				EB0B5C2923403F5E00B53357 /* PI_iRoom.framework */,
+				EB0B5C2823403F5E00B53357 /* PI_MediaCore.framework */,
+				EB0B5C2E23403F5F00B53357 /* PI_MediaPlayer.framework */,
+				EB0B5C2723403F5E00B53357 /* PI_Process.framework */,
+				EB0B5C2F23403F5F00B53357 /* PSCocosEngine.framework */,
+				EB0B5C2B23403F5E00B53357 /* PSLogUpload.framework */,
+				EB0B5C2C23403F5E00B53357 /* PSLStreaming.framework */,
+				EB0B5C2D23403F5F00B53357 /* transcoder.framework */,
+				EB0B5C2523403F5400B53357 /* VideoToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,6 +221,7 @@
 				EB0B5BE823403E0800B53357 /* Sources */,
 				EB0B5BE923403E0800B53357 /* Frameworks */,
 				EB0B5BEA23403E0800B53357 /* Resources */,
+				EB0B5C3B23403F6D00B53357 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -270,7 +345,6 @@
 				EB0B5BF723403E0800B53357 /* ViewController.m in Sources */,
 				EB0B5BF123403E0800B53357 /* AppDelegate.m in Sources */,
 				EB0B5C0223403E0A00B53357 /* main.m in Sources */,
-				EB0B5BF423403E0800B53357 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,13 +512,26 @@
 		EB0B5C1C23403E0A00B53357 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2QG6YWQHVH;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/sdkFramworks",
+				);
 				INFOPLIST_FILE = iLiveDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lz",
+					"-lstdc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ez.iLiveDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -455,13 +542,26 @@
 		EB0B5C1D23403E0A00B53357 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2QG6YWQHVH;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/sdkFramworks",
+				);
 				INFOPLIST_FILE = iLiveDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lz",
+					"-lstdc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ez.iLiveDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -1,0 +1,6 @@
+framework module PSLStreaming {
+  umbrella header "PSLStreaming.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module PI_iRoom {
+    umbrella header "PIiRoom.h"
+
+    export *
+    module * { export * }
+}

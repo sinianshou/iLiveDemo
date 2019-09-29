@@ -9,8 +9,7 @@
 #import "AppDelegate.h"
 
 #import <PI_iRoom/PIiRoom.h>
-//#import <PI_iRoom/PIiOSLogger.h>
-
+#import <PI_iRoom/PIiOSLogger.h>
 @interface AppDelegate ()
 
 @end
@@ -32,8 +31,8 @@ void uncaughtExceptionHandler(NSException* exception) {
     return YES;
 }
 -(void)config{
-
-//    [PIiOSLogger setLogToConsole:true];
+    
+    [PIiOSLogger setLogToConsole:true];
 
     NSString *logPath = NSTemporaryDirectory();
     [PIiRoom initialize:@"iRoom" andNdSelect:999 andRSPort:80 andPISPort:81 andDomain:@"" andRSTimeoutThreshold:5000 andLogPath:logPath];

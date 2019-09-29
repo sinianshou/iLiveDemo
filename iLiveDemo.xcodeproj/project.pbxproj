@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB079B582340489A00D5EA31 /* SocketIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB079B542340488C00D5EA31 /* SocketIO.framework */; };
+		EB079B592340489A00D5EA31 /* SocketIO.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EB079B542340488C00D5EA31 /* SocketIO.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EB079B5A2340489B00D5EA31 /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB079B552340488C00D5EA31 /* Starscream.framework */; };
+		EB079B5B2340489B00D5EA31 /* Starscream.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EB079B552340488C00D5EA31 /* Starscream.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		EB0B5BF123403E0800B53357 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0B5BF023403E0800B53357 /* AppDelegate.m */; };
 		EB0B5BF723403E0800B53357 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0B5BF623403E0800B53357 /* ViewController.m */; };
 		EB0B5BFA23403E0800B53357 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB0B5BF823403E0800B53357 /* Main.storyboard */; };
@@ -63,6 +67,8 @@
 				EB0B5C3D23403F6E00B53357 /* PI_iRoom.framework in Embed Frameworks */,
 				EB0B5C4523403F7400B53357 /* PSCocosEngine.framework in Embed Frameworks */,
 				EB0B5C4323403F7200B53357 /* PI_Process.framework in Embed Frameworks */,
+				EB079B592340489A00D5EA31 /* SocketIO.framework in Embed Frameworks */,
+				EB079B5B2340489B00D5EA31 /* Starscream.framework in Embed Frameworks */,
 				EB0B5C4B23403F7B00B53357 /* transcoder.framework in Embed Frameworks */,
 				EB0B5C4923403F7700B53357 /* PSLStreaming.framework in Embed Frameworks */,
 				EB0B5C4123403F7100B53357 /* PI_MediaPlayer.framework in Embed Frameworks */,
@@ -76,6 +82,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		EB079B542340488C00D5EA31 /* SocketIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SocketIO.framework; path = sdkFramworks/SocketIO.framework; sourceTree = "<group>"; };
+		EB079B552340488C00D5EA31 /* Starscream.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Starscream.framework; path = sdkFramworks/Starscream.framework; sourceTree = "<group>"; };
 		EB0B5BEC23403E0800B53357 /* iLiveDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iLiveDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB0B5BEF23403E0800B53357 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EB0B5BF023403E0800B53357 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -110,7 +118,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB0B5C4023403F7100B53357 /* PI_MediaPlayer.framework in Frameworks */,
+				EB079B5A2340489B00D5EA31 /* Starscream.framework in Frameworks */,
 				EB0B5C4623403F7500B53357 /* PSLogUpload.framework in Frameworks */,
+				EB079B582340489A00D5EA31 /* SocketIO.framework in Frameworks */,
 				EB0B5C4223403F7200B53357 /* PI_Process.framework in Frameworks */,
 				EB0B5C3923403F6D00B53357 /* PI_iLiveBase.framework in Frameworks */,
 				EB0B5C3C23403F6E00B53357 /* PI_iRoom.framework in Frameworks */,
@@ -197,6 +207,8 @@
 		EB0B5C2423403F5400B53357 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EB079B542340488C00D5EA31 /* SocketIO.framework */,
+				EB079B552340488C00D5EA31 /* Starscream.framework */,
 				EB0B5C2A23403F5E00B53357 /* PI_iLiveBase.framework */,
 				EB0B5C2923403F5E00B53357 /* PI_iRoom.framework */,
 				EB0B5C2823403F5E00B53357 /* PI_MediaCore.framework */,
@@ -512,7 +524,6 @@
 		EB0B5C1C23403E0A00B53357 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -542,7 +553,6 @@
 		EB0B5C1D23403E0A00B53357 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
